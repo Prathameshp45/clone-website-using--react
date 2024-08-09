@@ -1,0 +1,10 @@
+h1{
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(167, 229, 229);
+    justify-content: center ;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}

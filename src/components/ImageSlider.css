@@ -1,0 +1,43 @@
+.slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .image-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+  }
+  
+  .image-slide {
+    min-width: 200px; 
+    height: auto;
+   
+  }
+  
+  .scroll-button {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .scroll-button.left {
+    position: absolute;
+    left: 0;
+  }
+  
+  .scroll-button.right {
+    position: absolute;
+    right: 0;
+  }
+  
